@@ -1,0 +1,96 @@
+header, ul, li, a, span, div, p, h1, h2, h3, h4, h5, h6, div, body, html {
+  font-family: Khula;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav li {
+  display: flex;
+  padding: 8px 8px 4px 8px;
+  border-radius: 10px;
+  margin: 5px;
+  transition: background-color 0.3s;
+}
+
+.nav a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+.nav li:hover {
+  background-color: rgb(240,240,240);
+}
+
+main {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  background-image: url('splash.jpg');
+  background-size: cover;
+  background-position: top;
+  height: 500px;
+}
+
+main ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+main ul li {
+  padding: 0;
+  margin: 0 5px;
+}
+
+main p {
+  color: white;
+  margin-top: 5px;
+}
+
+main a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  background: beige;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer p {
+  padding: 10px;
+}
+
+footer > ul.nav a {
+  color: black
+}
+
+footer > ul.nav li {
+  transition: text-decoration 1s;
+}
+
+footer > ul.nav li:hover {
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+
+.logo {
+  padding: 10px;
+  font-weight: bold;
+  color: blue;
+}
